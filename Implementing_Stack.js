@@ -23,6 +23,12 @@ var Stack = function()
     this.count--;
   }
   
+  //Returns the size of the stack
+  this.size = function()
+  {
+    return this.count;
+  }
+  
   //Returns the value at the end of the stack
   this.peek = function()
   {
