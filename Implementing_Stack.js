@@ -2,7 +2,7 @@
 var Stack = function()
 {
   this.count = 0;
-  this.storage = 0;
+  this.storage ={};
   
   //adds to a stack
   this.push = function(value)
